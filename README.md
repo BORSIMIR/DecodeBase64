@@ -19,7 +19,7 @@ A web-based tool that converts Base64 encoded strings to ASCII text, specificall
 
 ## Live Demo
 
-[Try it here!](#) *([Add your deployment link here](https://borsimir.github.io/DecodeBase64/))*
+[Try it here!](#) *(https://borsimir.github.io/DecodeBase64/)*
 
 ## Technologies Used
 
