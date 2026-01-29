@@ -17,6 +17,10 @@ A web-based tool that converts Base64 encoded strings to ASCII text, specificall
 - **Responsive Design**: Works on desktop and mobile devices
 - **Clean UI**: Built with Bootstrap 5 for a professional look
 
+## Live Demo
+
+[Try it here!](#) *([Add your deployment link here](https://borsimir.github.io/DecodeBase64/))*
+
 ## Technologies Used
 
 - **HTML5** - Structure and semantics
