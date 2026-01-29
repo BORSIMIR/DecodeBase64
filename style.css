@@ -1,0 +1,114 @@
+body {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+}
+
+.card-header {
+    border-radius: 15px 15px 0 0 !important;
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+    color: white;
+    border: none;
+}
+
+.result-box {
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 15px;
+    margin-top: 10px;
+    font-family: 'Courier New', monospace;
+    border-left: 4px solid #4b6cb7;
+    word-break: break-all;
+}
+
+.byte-box {
+    display: inline-block;
+    margin: 2px;
+    padding: 5px 10px;
+    background: #e3f2fd;
+    border-radius: 4px;
+    font-family: monospace;
+    font-weight: bold;
+    border: 1px solid #bbdefb;
+}
+
+.null-byte {
+    background: #ffebee;
+    color: #c62828;
+    border-color: #ffcdd2;
+}
+
+.btn-convert {
+    background: linear-gradient(90deg, #11998e 0%, #38ef7d 100%);
+    border: none;
+    color: white;
+    transition: transform 0.2s;
+}
+
+.btn-convert:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.position-marker {
+    font-size: 0.8em;
+    color: #666;
+    margin-right: 5px;
+}
+
+.int-value {
+    color: #1976d2;
+    font-weight: bold;
+}
+
+.char-value {
+    color: #388e3c;
+    font-weight: bold;
+}
+
+.tab-content {
+    border: 1px solid #dee2e6;
+    border-top: none;
+    border-radius: 0 0 10px 10px;
+    padding: 20px;
+}
+
+.nav-tabs .nav-link {
+    font-weight: 500;
+}
+
+.nav-tabs .nav-link.active {
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+    color: white;
+    border-color: #4b6cb7;
+}
+
+/* Animation for result updates */
+.result-update {
+    animation: highlight 0.5s ease;
+}
+
+@keyframes highlight {
+    0% { background-color: #e3f2fd; }
+    50% { background-color: #bbdefb; }
+    100% { background-color: #f8f9fa; }
+}
+
+/* Loading spinner */
+.spinner-container {
+    display: none;
+    text-align: center;
+    padding: 20px;
+}
+
+.spinner-container.active {
+    display: block;
+}
